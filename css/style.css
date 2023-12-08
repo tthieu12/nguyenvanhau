@@ -78,9 +78,56 @@ a{
 }
 .header__bottom nav a{
     color: #494949;
-    line-height: 26px;  
+    line-height: 26px;
 }
 .header__bottom nav i{
     color: #858585;
+    font-size: 20px;
+}
+
+/* CAROUSEL */
+.carousel{
+    height: 810px;
+    background-image: url(../img/image\ 43.png);
+    background-size: cover;
+    position: relative;
+}
+.carousel__slide{
+    position: absolute;
+    top: 468px;
+    left: 1352px;
+}
+
+.carousel__icon{
+    width: 48px;
+    height: 48px;
+    line-height: 48px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+}
+.carousel__icon:not(.messenger){
+    margin-bottom: 20px;
+}
+.car-icon-2, .car-icon-3{
+    color: #FF8302;
+}
+.carousel__icon:last-of-type{
+    background-color: #FF8302;
+}
+.carousel__icon:last-of-type a{
+    color: white;
+}
+.carousel__icon:first-of-type{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.carousel__icon:first-of-type a{
+    color: #fff;
+    font-size: 20px;
+}
+.carousel__icon:last-of-type a{
+    font-size: 25px;
+}
+.car-icon-3{
     font-size: 20px;
 }
