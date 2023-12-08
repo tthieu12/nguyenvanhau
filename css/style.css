@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 body, html{
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    font-size: 16px;
 }
 .container{
     width: 92%;
@@ -15,13 +16,14 @@ a{
     text-decoration: none;
 }
 /* HEADER */
-header{
+.header__top{
+    letter-spacing: 1px;
+    padding: 8px 0;
     background-color: #000;
 }
-.header__top{
+.header__top .container{
     display: flex;
     justify-content: space-between;
-    padding: 8px 0;
 }
 .header__top a{
     color: white;
@@ -59,4 +61,26 @@ header{
     border-left: 1px solid gray;
     padding-left: 8px;
     opacity: 0.5;
+}
+.header__bottom{
+    background-color: #fff;
+    padding: 16px 0; 
+}
+.header__bottom .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__bottom nav li{
+    list-style: none;   
+    display: inline;
+    padding: 29px 20px;
+}
+.header__bottom nav a{
+    color: #494949;
+    line-height: 26px;  
+}
+.header__bottom nav i{
+    color: #858585;
+    font-size: 20px;
 }
