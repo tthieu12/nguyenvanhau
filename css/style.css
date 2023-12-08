@@ -88,7 +88,7 @@ a{
 /* CAROUSEL */
 .carousel{
     height: 810px;
-    background-image: url(../img/image\ 43.png);
+    background-image: url(../img/image43.jpg);
     background-size: cover;
     position: relative;
 }
@@ -130,4 +130,114 @@ a{
 }
 .car-icon-3{
     font-size: 20px;
+}
+
+/* INTRO */
+.intro{
+    background-image: url(../img/Untitled.jpg);
+    height: 1094px;
+    position: relative;
+}
+.intro__title{
+    text-align: center;
+    width: calc(8000%/144);
+    margin: auto;
+    padding-top: 40px;
+}
+.intro__title h2{
+    color: #343434;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: bold;
+}
+.intro__title p{
+    text-align: left;
+    line-height: 28px;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 24px 0 32px;
+}
+.intro__title button{
+    padding: 16px 32px;
+    border: 1px solid #FF8302;
+    border-radius: 16px;
+    background-color: #FF8302;
+    color: #fff;
+    font-weight: bold;
+    line-height: 24px;
+    width: 28%;
+    cursor: pointer;
+}
+.intro__title img{
+    position: absolute;
+    bottom: 1035px;
+    left: 1035px;
+}
+.intro__content{
+    width: calc(11200%/144);
+    margin: auto;
+    padding: 64px 0 115px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+}
+.intro__card{
+    height: 600px;
+    background-color: white;
+    border-radius: 16px;
+    position: relative;
+    overflow: hidden;
+}
+.intro__text{
+    width: 270px;
+    height: 104px;
+}
+.intro__text h3{
+    font-size: 24px;
+    line-height: 41px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.intro__text p{
+    line-height: 26px;
+    color: #494949;
+}
+.card--1 .intro__icon img{
+    position: absolute;
+    bottom: 0;
+    right: 22px;
+}
+.card--1 .intro__ratio img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 16px;
+    width: 100%;
+    object-fit: cover;
+}
+.card--1 .intro__text{
+    position: absolute;
+    bottom: 37px;
+    left: 32px;
+}
+.card--2{
+    background-color: #F5F5F5;
+}
+.card--2 .intro__text{
+    position: absolute;
+    top: 32px;
+    left: 40px;
+}
+.card--2 .intro__icon img{
+    position: absolute;
+    top: 42px;
+    right: 20px;
+}
+.card--2 .intro__ratio img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 16px;
+    width: 100%;
+    object-fit: cover;
 }
