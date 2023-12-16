@@ -7,6 +7,7 @@ body, html{
     font-family: 'Montserrat', sans-serif;
     background-color: white;
     font-size: 16px;
+    max-width: 1440px;
 }
 .container{
     width: 92%;
@@ -240,4 +241,61 @@ a{
     border-radius: 16px;
     width: 100%;
     object-fit: cover;
+}
+
+/* GALLERY */
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.gallery__item{
+    position: relative;
+}
+.gallery__item img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.gallery__itemcontent{
+    width: 100%;
+    height: 100%;
+    line-height: 480px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    background-color: #00000033;
+}
+.gallery__itemcontent p{
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+}
+.item--1 .gallery__itemcontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 80px;
+    font-size: 56px;
+    background-color: transparent;
+}
+.item--2 .gallery__itemcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000A3;
+    line-height: 80px;
+}
+.item--2 .gallery__itemcontent button{
+    padding: 16px 32px;
+    border: 2px solid #FF8302;
+    border-radius: 16px;
+    color: #FF8302;
+    background-color: transparent;
+    transition: all 0.5s;
+}
+.item--2 .gallery__itemcontent button:hover{
+    background-color: #FF8302;
+    color: #fff;
 }
