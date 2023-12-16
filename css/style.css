@@ -79,7 +79,7 @@ li {
 }
 
 .header__right span:last-of-type {
-    border-left: 1px solid gray;
+    border-left: 2px solid white;
     padding-left: 8px;
     opacity: 0.5;
 }
